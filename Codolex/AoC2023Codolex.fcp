@@ -1,0 +1,47 @@
+{
+    "name": "AoC2023Codolex",
+    "fileName": "AoC2023Codolex.fcp",
+    "supportedLanguages": 1,
+    "fileVersion": "1.4.0",
+    "guid": "{EE42F3C1-C38F-4146-9F5B-4F1231CC058D}",
+    "datasources": [
+    ],
+    "modules": [
+        {
+            "name": "Days",
+            "guid": "{C874C83A-A3BF-4D89-AAEA-3ECE2D9E7AAB}",
+            "dataModels": [
+            ],
+            "FlowClasses": [
+                {
+                    "guid": "{D98C0D35-9E5E-4A02-B405-5B8B26C245A6}",
+                    "filePath": "\\Days\\Days.DayX.fsf"
+                }
+            ]
+        },
+        {
+            "name": "Utils",
+            "guid": "{8E25EF29-DFDF-4556-87E6-0AFF6ABD146E}",
+            "dataModels": [
+            ],
+            "FlowClasses": [
+                {
+                    "guid": "{09E0BBCA-5753-4672-A337-45DD77564B93}",
+                    "filePath": "\\Utils\\Utils.IO.fsf"
+                }
+            ]
+        },
+        {
+            "name": "Data",
+            "guid": "{7EB685A0-EF71-443A-ADB0-61F53F8C6AF3}",
+            "dataModels": [
+            ],
+            "FlowClasses": [
+                {
+                    "guid": "{707F0C04-F3DF-43B1-B21C-4EC6ED3FB9C3}",
+                    "filePath": "\\Data\\Data.Provider.fsf"
+                }
+            ]
+        }
+    ]
+}

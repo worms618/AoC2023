@@ -1,0 +1,17 @@
+{
+    "name": "DayX",
+    "language": "Delphi",
+    "guid": "{D98C0D35-9E5E-4A02-B405-5B8B26C245A6}",
+    "flows": [
+        {
+            "guid": "{E8501279-63B6-4A54-8ABF-2E7F4C69D5AF}",
+            "filePath": "\\Days\\Days.DayX.Part1.fsf"
+        },
+        {
+            "guid": "{60DBB8B9-0B1A-4124-ABD9-02457E98DD8A}",
+            "filePath": "\\Days\\Days.DayX.Part2.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

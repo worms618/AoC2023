@@ -1,0 +1,13 @@
+{
+    "name": "Provider",
+    "language": "Delphi",
+    "guid": "{707F0C04-F3DF-43B1-B21C-4EC6ED3FB9C3}",
+    "flows": [
+        {
+            "guid": "{5BCC6664-7FD1-4034-B038-A32EBDDF98DD}",
+            "filePath": "\\Data\\Data.Provider.GetAsString.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

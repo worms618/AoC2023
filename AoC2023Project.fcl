@@ -1,0 +1,10 @@
+{
+    "programName": "AoC2023Project.dproj",
+    "guid": "{8E2F85E6-25C3-49B3-A8EA-879873BA107F}",
+    "projects": [
+        {
+            "name": "AoC2023Codolex",
+            "projectGUID": "{EE42F3C1-C38F-4146-9F5B-4F1231CC058D}"
+        }
+    ]
+}

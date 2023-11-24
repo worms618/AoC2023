@@ -1,0 +1,17 @@
+{
+    "name": "IO",
+    "language": "Delphi",
+    "guid": "{09E0BBCA-5753-4672-A337-45DD77564B93}",
+    "flows": [
+        {
+            "guid": "{8B13D4D2-4A6E-4510-ABA4-7B95603B27D9}",
+            "filePath": "\\Utils\\Utils.IO.ComposeDayDirectory.fsf"
+        },
+        {
+            "guid": "{A27CCEA2-E550-42C9-BFFE-57695F5F0C2C}",
+            "filePath": "\\Utils\\Utils.IO.ComposePartDataFilePath.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}
