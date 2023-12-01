@@ -16,6 +16,10 @@
                 {
                     "guid": "{D98C0D35-9E5E-4A02-B405-5B8B26C245A6}",
                     "filePath": "\\Days\\Days.DayX.fsf"
+                },
+                {
+                    "guid": "{0D5DB846-4D4F-4966-982A-213CBF723802}",
+                    "filePath": "\\Days\\Days.Day1.fsf"
                 }
             ]
         },

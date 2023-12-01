@@ -1,4 +1,4 @@
-unit DayX;
+unit Day1;
 
 interface
 
@@ -7,7 +7,7 @@ uses
 
 type
   [TestFixture]
-  [Category('dayx')]
+  [Category('day1')]
   TDayXTest = class
   public
     [Setup]
@@ -26,7 +26,7 @@ type
 implementation
 
 uses
-  AoC2023Codolex.Days.DayX;
+  AoC2023Codolex.Days.Day1;
 
 procedure TDayXTest.Setup;
 begin
@@ -39,7 +39,7 @@ end;
 procedure TDayXTest.Part1;
 begin
   var Expected: Integer := 0;
-  var Actual := TDayX.Part1();
+  var Actual := TDay1.Part1();
 
   Assert.AreEqual(Expected, Actual);
 end;
@@ -47,7 +47,7 @@ end;
 procedure TDayXTest.Part2;
 begin
   var Expected: Integer := 0;
-  var Actual := TDayX.Part2();
+  var Actual := TDay1.Part2();
 
   Assert.AreEqual(Expected, Actual);
 end;

@@ -13,7 +13,8 @@ uses
   DUnitX.Loggers.Xml.NUnit,
   {$ENDIF }
   DUnitX.TestFramework,
-  DayX in 'Days\DayX.pas';
+  DayX in 'Days\DayX.pas',
+  Day1 in 'Days\Day1.pas';
 
 {$IFNDEF TESTINSIGHT}
 var
