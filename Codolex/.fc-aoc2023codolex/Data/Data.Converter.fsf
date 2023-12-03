@@ -1,0 +1,13 @@
+{
+    "name": "Converter",
+    "language": "Delphi",
+    "guid": "{7D8CC541-85C8-4109-82E4-5C0A1490B697}",
+    "flows": [
+        {
+            "guid": "{A78E51C1-C1D4-423F-BA6C-35643A1592D6}",
+            "filePath": "\\Data\\Data.Converter.GetAsLines.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

@@ -44,6 +44,10 @@
                 {
                     "guid": "{707F0C04-F3DF-43B1-B21C-4EC6ED3FB9C3}",
                     "filePath": "\\Data\\Data.Provider.fsf"
+                },
+                {
+                    "guid": "{7D8CC541-85C8-4109-82E4-5C0A1490B697}",
+                    "filePath": "\\Data\\Data.Converter.fsf"
                 }
             ]
         }
