@@ -479,17 +479,17 @@
         {
             "expression": "",
             "bounds": [
-                1064,
-                521,
-                1236,
-                609,
+                1252,
+                526,
+                1424,
+                614,
                 [
-                    1064,
-                    521
+                    1252,
+                    526
                 ],
                 [
-                    1236,
-                    609
+                    1424,
+                    614
                 ]
             ],
             "componentName": "Core.Activities.CreateVariable",
@@ -653,17 +653,17 @@
         {
             "expression": "",
             "bounds": [
-                1289,
-                518,
-                1421,
-                622,
+                1414,
+                523,
+                1546,
+                627,
                 [
-                    1289,
-                    518
+                    1414,
+                    523
                 ],
                 [
-                    1421,
-                    622
+                    1546,
+                    627
                 ]
             ],
             "componentName": "Core.Activities.CallFlow",
@@ -671,10 +671,8 @@
             "elementClass": "Core.Activities.CallFlow",
             "guid": "{FC069F09-66D1-4E2B-B945-E33CDAEF33CD}",
             "incomingSequences": [
-                "{6328CA24-9EA8-471A-AEB4-C31A26EDB975}"
             ],
             "outgoingSequences": [
-                "{9FFD8580-746C-4E2A-A08F-449F17EB239F}"
             ],
             "boundaryEvents": [
             ],
@@ -717,8 +715,8 @@
                     "Right",
                     0,
                     [
-                        1236,
-                        565
+                        1424,
+                        570
                     ],
                     "None",
                     0,
@@ -734,7 +732,7 @@
                     "Left",
                     0,
                     [
-                        1289,
+                        1506,
                         570
                     ],
                     "None",
@@ -745,39 +743,39 @@
             "description": "",
             "elementClass": "FlowModel.Sequence.TFlowSequence",
             "guid": "{6328CA24-9EA8-471A-AEB4-C31A26EDB975}",
-            "toElement": "{FC069F09-66D1-4E2B-B945-E33CDAEF33CD}",
+            "toElement": "{951D4F09-1475-4E8D-B31C-D1F0C4FD87C8}",
             "fromElement": "{C44E4C0B-979A-4543-BB48-C99A1E935D7B}"
         },
         {
             "changeListOperation": "Add",
-            "expression": "TotalCalibrationValues + GetCalibrationValueResult",
+            "expression": "TotalCalibrationValues + GetCalibrationValue(Line_1)",
             "bounds": [
-                1511,
-                545,
-                1689,
-                605,
+                1506,
+                520,
+                1684,
+                620,
                 [
-                    1511,
-                    545
+                    1506,
+                    520
                 ],
                 [
-                    1689,
-                    605
+                    1684,
+                    620
                 ]
             ],
             "componentName": "Core.Activities.ChangeVariable",
-            "description": "",
+            "description": "Increment TotalCalibrationValues",
             "elementClass": "Core.Activities.ChangeVariable",
             "guid": "{951D4F09-1475-4E8D-B31C-D1F0C4FD87C8}",
             "incomingSequences": [
-                "{9FFD8580-746C-4E2A-A08F-449F17EB239F}"
+                "{6328CA24-9EA8-471A-AEB4-C31A26EDB975}"
             ],
             "outgoingSequences": [
             ],
             "boundaryEvents": [
             ],
             "returnVariable": "{A26F27EC-BD89-4AE2-BD7E-22F8F57432CD}",
-            "variableToChange": "{47FFF142-BCFF-4087-8AE3-6389E73E962B}"
+            "variableToChange": "{630BA4A3-96FC-49C0-BF7E-CCFB77CB74FD}"
         },
         {
             "name": "",
@@ -805,8 +803,8 @@
                     "Right",
                     0,
                     [
-                        1421,
-                        570
+                        1546,
+                        575
                     ],
                     "None",
                     0,
@@ -822,8 +820,8 @@
                     "Left",
                     0,
                     [
-                        1511,
-                        575
+                        1636,
+                        580
                     ],
                     "None",
                     0,
@@ -832,9 +830,7 @@
             ],
             "description": "",
             "elementClass": "FlowModel.Sequence.TFlowSequence",
-            "guid": "{9FFD8580-746C-4E2A-A08F-449F17EB239F}",
-            "toElement": "{951D4F09-1475-4E8D-B31C-D1F0C4FD87C8}",
-            "fromElement": "{FC069F09-66D1-4E2B-B945-E33CDAEF33CD}"
+            "guid": "{9FFD8580-746C-4E2A-A08F-449F17EB239F}"
         }
     ]
 }
