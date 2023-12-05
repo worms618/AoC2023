@@ -14,32 +14,6 @@
     "elements": [
         {
             "bounds": [
-                10,
-                560,
-                80,
-                630,
-                [
-                    10,
-                    560
-                ],
-                [
-                    80,
-                    630
-                ]
-            ],
-            "componentName": "",
-            "description": "",
-            "elementClass": "FlowModel.Start.TFlowStart",
-            "guid": "{5FC45E6D-B5E8-45AC-96A7-6E18F6D522F7}",
-            "incomingSequences": [
-            ],
-            "outgoingSequences": [
-                "{E879F95A-C1D2-4698-808D-911D16ED2790}"
-            ],
-            "startSequence": "{E879F95A-C1D2-4698-808D-911D16ED2790}"
-        },
-        {
-            "bounds": [
                 1845,
                 560,
                 1915,
@@ -831,6 +805,32 @@
             "description": "",
             "elementClass": "FlowModel.Sequence.TFlowSequence",
             "guid": "{9FFD8580-746C-4E2A-A08F-449F17EB239F}"
+        },
+        {
+            "bounds": [
+                10,
+                560,
+                80,
+                630,
+                [
+                    10,
+                    560
+                ],
+                [
+                    80,
+                    630
+                ]
+            ],
+            "componentName": "",
+            "description": "",
+            "elementClass": "FlowModel.Start.TFlowStart",
+            "guid": "{5FC45E6D-B5E8-45AC-96A7-6E18F6D522F7}",
+            "incomingSequences": [
+            ],
+            "outgoingSequences": [
+                "{E879F95A-C1D2-4698-808D-911D16ED2790}"
+            ],
+            "startSequence": "{E879F95A-C1D2-4698-808D-911D16ED2790}"
         }
     ]
 }

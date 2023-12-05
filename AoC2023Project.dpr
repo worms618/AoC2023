@@ -14,7 +14,8 @@ uses
   {$ENDIF }
   DUnitX.TestFramework,
   DayX in 'Days\DayX.pas',
-  Day1 in 'Days\Day1.pas';
+  Day1 in 'Days\Day1.pas',
+  Day2 in 'Days\Day2.pas';
 
 {$IFNDEF TESTINSIGHT}
 var

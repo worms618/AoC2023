@@ -58,8 +58,6 @@ end;
 
 function TDay1Test.GetCalibrationValue(Line: string): Integer;
 begin
-  Result := 0;
-
   var LastDigit: string;
   var FirstDigit: string;
 
