@@ -38,7 +38,7 @@ end;
 
 procedure TDay2Test.Part1;
 begin
-  var Expected: Integer := 8;
+  var Expected: Integer := 2679;
   var Actual := TDay2.Part1();
 
   Assert.AreEqual(Expected, Actual);
@@ -46,7 +46,7 @@ end;
 
 procedure TDay2Test.Part2;
 begin
-  var Expected: Integer := 0;
+  var Expected: Integer := 2286;
   var Actual := TDay2.Part2();
 
   Assert.AreEqual(Expected, Actual);

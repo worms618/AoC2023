@@ -1,0 +1,575 @@
+{
+    "name": "CalculatePowerGame",
+    "visibility": "Public_",
+    "isStatic": true,
+    "isFunction": true,
+    "guid": "{D06E90A1-1367-4D0A-AA58-B8E12597EB0A}",
+    "returnValue": "{076ADD00-2E5C-4ED6-9862-CC0368EB7150}",
+    "start": "{6118E156-63CD-473F-8F90-5828F0918FFC}",
+    "ends": [
+        "{488E9C22-9FFC-44A3-9E00-409A4565FE98}"
+    ],
+    "parameters": [
+        "{59269A9E-0E02-41BE-B1C2-3885D6AE642A}"
+    ],
+    "elements": [
+        {
+            "bounds": [
+                189,
+                455,
+                259,
+                525,
+                [
+                    189,
+                    455
+                ],
+                [
+                    259,
+                    525
+                ]
+            ],
+            "componentName": "",
+            "description": "",
+            "elementClass": "FlowModel.Start.TFlowStart",
+            "guid": "{6118E156-63CD-473F-8F90-5828F0918FFC}",
+            "incomingSequences": [
+            ],
+            "outgoingSequences": [
+                "{2B02D74D-5E03-426A-ACB2-617029CEE065}"
+            ],
+            "startSequence": "{2B02D74D-5E03-426A-ACB2-617029CEE065}"
+        },
+        {
+            "bounds": [
+                1500,
+                455,
+                1570,
+                525,
+                [
+                    1500,
+                    455
+                ],
+                [
+                    1570,
+                    525
+                ]
+            ],
+            "componentName": "Core.Structural.End",
+            "description": "",
+            "elementClass": "Core.Structural.End",
+            "guid": "{488E9C22-9FFC-44A3-9E00-409A4565FE98}",
+            "incomingSequences": [
+                "{F396803A-3656-463C-842A-4233063141D6}"
+            ],
+            "outgoingSequences": [
+            ],
+            "returnVariable": "{627183A8-93CE-4EE4-B2A5-1698A6C01864}"
+        },
+        {
+            "name": "CalculatePowerGameResult",
+            "variableType": "Integer_",
+            "collectionType": "None",
+            "expression": "1",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{076ADD00-2E5C-4ED6-9862-CC0368EB7150}"
+        },
+        {
+            "bounds": [
+                374,
+                277,
+                476,
+                333,
+                [
+                    374,
+                    277
+                ],
+                [
+                    476,
+                    333
+                ]
+            ],
+            "componentName": "Core.Structural.Parameter",
+            "description": "Config",
+            "elementClass": "Core.Structural.Parameter",
+            "guid": "{59269A9E-0E02-41BE-B1C2-3885D6AE642A}",
+            "incomingSequences": [
+            ],
+            "outgoingSequences": [
+            ],
+            "variable": "{E9987662-F5B3-4826-A27E-F512D2457DD8}"
+        },
+        {
+            "name": "Config",
+            "variableType": "Entity_",
+            "collectionType": "Entity_",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{E9987662-F5B3-4826-A27E-F512D2457DD8}",
+            "entity": "{3A7C72FE-B883-4A58-8C61-62EE4E624EBB}",
+            "owner": "{59269A9E-0E02-41BE-B1C2-3885D6AE642A}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        259,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        319,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{2B02D74D-5E03-426A-ACB2-617029CEE065}",
+            "toElement": "{76B19D97-8911-47D8-86ED-14891FFC6D1B}",
+            "fromElement": "{6118E156-63CD-473F-8F90-5828F0918FFC}"
+        },
+        {
+            "expression": "",
+            "bounds": [
+                319,
+                446,
+                491,
+                534,
+                [
+                    319,
+                    446
+                ],
+                [
+                    491,
+                    534
+                ]
+            ],
+            "componentName": "Core.Activities.CreateVariable",
+            "description": "Power",
+            "elementClass": "Core.Activities.CreateVariable",
+            "guid": "{76B19D97-8911-47D8-86ED-14891FFC6D1B}",
+            "incomingSequences": [
+                "{2B02D74D-5E03-426A-ACB2-617029CEE065}"
+            ],
+            "outgoingSequences": [
+                "{3AC85A57-AD81-4CFD-ABC3-E78CA953C9DC}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{627183A8-93CE-4EE4-B2A5-1698A6C01864}"
+        },
+        {
+            "name": "Power",
+            "variableType": "Integer_",
+            "collectionType": "None",
+            "expression": "1",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{627183A8-93CE-4EE4-B2A5-1698A6C01864}",
+            "owner": "{76B19D97-8911-47D8-86ED-14891FFC6D1B}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        491,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        551,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{3AC85A57-AD81-4CFD-ABC3-E78CA953C9DC}",
+            "toElement": "{C5FC441F-35CF-43CB-BBBB-ADFE4527659C}",
+            "fromElement": "{76B19D97-8911-47D8-86ED-14891FFC6D1B}"
+        },
+        {
+            "expression": "",
+            "bounds": [
+                551,
+                446,
+                723,
+                534,
+                [
+                    551,
+                    446
+                ],
+                [
+                    723,
+                    534
+                ]
+            ],
+            "componentName": "Core.Activities.CreateVariable",
+            "description": "Cubes",
+            "elementClass": "Core.Activities.CreateVariable",
+            "guid": "{C5FC441F-35CF-43CB-BBBB-ADFE4527659C}",
+            "incomingSequences": [
+                "{3AC85A57-AD81-4CFD-ABC3-E78CA953C9DC}"
+            ],
+            "outgoingSequences": [
+                "{B52ADA89-7F00-4298-B040-81D8AC1F8A6F}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{0B05B86E-6DB9-4D82-8083-8332DB4F2002}"
+        },
+        {
+            "name": "CubeList",
+            "variableType": "List_",
+            "collectionType": "Entity_",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{0B05B86E-6DB9-4D82-8083-8332DB4F2002}",
+            "entity": "{D5ACCF8A-B399-4242-84E2-4D9EE42D2556}",
+            "owner": "{C5FC441F-35CF-43CB-BBBB-ADFE4527659C}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        723,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        784,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{B52ADA89-7F00-4298-B040-81D8AC1F8A6F}",
+            "toElement": "{980337DB-4B71-45A9-BCCF-3007F30339FA}",
+            "fromElement": "{C5FC441F-35CF-43CB-BBBB-ADFE4527659C}"
+        },
+        {
+            "codeSnippet": "CubeList := Config.Cubes;",
+            "expression": "",
+            "bounds": [
+                784,
+                448,
+                946,
+                532,
+                [
+                    784,
+                    448
+                ],
+                [
+                    946,
+                    532
+                ]
+            ],
+            "componentName": "Core.Activities.CodeSnippet",
+            "description": "Assign cubes",
+            "elementClass": "Core.Activities.CodeSnippet",
+            "guid": "{980337DB-4B71-45A9-BCCF-3007F30339FA}",
+            "incomingSequences": [
+                "{B52ADA89-7F00-4298-B040-81D8AC1F8A6F}"
+            ],
+            "outgoingSequences": [
+                "{91119B10-73CB-433C-A3E2-20CA74F4D996}"
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{5FFFE73F-5E8E-4CC2-871B-225E918C39DF}"
+        },
+        {
+            "name": "",
+            "variableType": "None",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{5FFFE73F-5E8E-4CC2-871B-225E918C39DF}",
+            "owner": "{980337DB-4B71-45A9-BCCF-3007F30339FA}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        946,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        1005,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{91119B10-73CB-433C-A3E2-20CA74F4D996}",
+            "toElement": "{27093FAE-C7C7-41C4-AAB7-C63F2EB6EB79}",
+            "fromElement": "{980337DB-4B71-45A9-BCCF-3007F30339FA}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        0
+                    ],
+                    "From_",
+                    "Right",
+                    0,
+                    [
+                        1355,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        0
+                    ],
+                    "To_",
+                    "Left",
+                    0,
+                    [
+                        1500,
+                        490
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{F396803A-3656-463C-842A-4233063141D6}",
+            "toElement": "{488E9C22-9FFC-44A3-9E00-409A4565FE98}",
+            "fromElement": "{27093FAE-C7C7-41C4-AAB7-C63F2EB6EB79}"
+        },
+        {
+            "loopType": "ForInLoop",
+            "evaluation": "",
+            "initialValue": 0,
+            "bounds": [
+                1005,
+                390,
+                1355,
+                590,
+                [
+                    1005,
+                    390
+                ],
+                [
+                    1355,
+                    590
+                ]
+            ],
+            "componentName": "Core.Structural.Loop",
+            "description": "",
+            "elementClass": "Core.Structural.Loop",
+            "guid": "{27093FAE-C7C7-41C4-AAB7-C63F2EB6EB79}",
+            "incomingSequences": [
+                "{91119B10-73CB-433C-A3E2-20CA74F4D996}"
+            ],
+            "outgoingSequences": [
+                "{F396803A-3656-463C-842A-4233063141D6}"
+            ],
+            "boundaryEvents": [
+            ],
+            "startSequence": "{B0D44B41-9E3B-4C4E-B664-64874D956DDE}",
+            "elements": [
+                "{B0D44B41-9E3B-4C4E-B664-64874D956DDE}",
+                "{9AFE85E0-79FA-4EA2-9A85-246B6B34E2CC}",
+                "{32A5F3E5-1543-4F84-9070-9DA1118264A0}"
+            ],
+            "loopVariable": "{9AFE85E0-79FA-4EA2-9A85-246B6B34E2CC}",
+            "maxCountVariable": "{0B05B86E-6DB9-4D82-8083-8332DB4F2002}"
+        },
+        {
+            "conditionType": "None",
+            "conditionOperator": "None",
+            "conditionValue": "",
+            "points": [
+            ],
+            "description": "",
+            "elementClass": "FlowModel.Sequence.TFlowSequence",
+            "guid": "{B0D44B41-9E3B-4C4E-B664-64874D956DDE}",
+            "toElement": "{32A5F3E5-1543-4F84-9070-9DA1118264A0}"
+        },
+        {
+            "name": "Cube",
+            "variableType": "Entity_",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{9AFE85E0-79FA-4EA2-9A85-246B6B34E2CC}",
+            "entity": "{D5ACCF8A-B399-4242-84E2-4D9EE42D2556}",
+            "owner": "{27093FAE-C7C7-41C4-AAB7-C63F2EB6EB79}"
+        },
+        {
+            "changeListOperation": "Add",
+            "expression": "Power * Cube.Amount",
+            "bounds": [
+                1036,
+                433,
+                1214,
+                517,
+                [
+                    1036,
+                    433
+                ],
+                [
+                    1214,
+                    517
+                ]
+            ],
+            "componentName": "Core.Activities.ChangeVariable",
+            "description": "Increase power",
+            "elementClass": "Core.Activities.ChangeVariable",
+            "guid": "{32A5F3E5-1543-4F84-9070-9DA1118264A0}",
+            "incomingSequences": [
+                "{B0D44B41-9E3B-4C4E-B664-64874D956DDE}"
+            ],
+            "outgoingSequences": [
+            ],
+            "boundaryEvents": [
+            ],
+            "returnVariable": "{01653D7C-B083-44BF-9171-2E1B618EB0E6}",
+            "variableToChange": "{627183A8-93CE-4EE4-B2A5-1698A6C01864}"
+        },
+        {
+            "name": "",
+            "variableType": "None",
+            "collectionType": "None",
+            "expression": "",
+            "customTypeName": "",
+            "description": "",
+            "elementClass": "FlowModel.Variable.TFlowVariable",
+            "guid": "{01653D7C-B083-44BF-9171-2E1B618EB0E6}",
+            "owner": "{32A5F3E5-1543-4F84-9070-9DA1118264A0}"
+        }
+    ]
+}

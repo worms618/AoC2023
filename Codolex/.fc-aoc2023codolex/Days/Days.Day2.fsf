@@ -4,6 +4,10 @@
     "guid": "{6637970C-9F14-4782-B04A-8B46610776D9}",
     "flows": [
         {
+            "guid": "{D06E90A1-1367-4D0A-AA58-B8E12597EB0A}",
+            "filePath": "\\Days\\Days.Day2.CalculatePowerGame.fsf"
+        },
+        {
             "guid": "{A5180A18-F8E3-4A1D-8D38-74BA556B3B01}",
             "filePath": "\\Days\\Days.Day2.CubeCanBePlayed.fsf"
         },
@@ -14,6 +18,10 @@
         {
             "guid": "{27878702-76CC-4B71-B59A-1BCC15052D44}",
             "filePath": "\\Days\\Days.Day2.GameRoundCanBePlayed.fsf"
+        },
+        {
+            "guid": "{A64301B7-7120-4F44-BAAA-E507F53D5784}",
+            "filePath": "\\Days\\Days.Day2.GameSmallestConfiguration.fsf"
         },
         {
             "guid": "{A4D6CDEE-F78A-4372-828D-8B228AFF0F8F}",
@@ -34,6 +42,10 @@
         {
             "guid": "{02455F15-6425-4FA5-A633-947E17376A1A}",
             "filePath": "\\Days\\Days.Day2.Part2.fsf"
+        },
+        {
+            "guid": "{27C27467-06D7-4F67-B77A-E2234E30D8CF}",
+            "filePath": "\\Days\\Days.Day2.UpdateSmallestConfig.fsf"
         }
     ],
     "variables": [
