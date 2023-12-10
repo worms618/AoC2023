@@ -5,6 +5,10 @@
     "fileVersion": "1.4.0",
     "guid": "{EE42F3C1-C38F-4146-9F5B-4F1231CC058D}",
     "datasources": [
+        {
+            "guid": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}",
+            "filePath": "\\AoC2023Codolex.DataSource.Day2.fds"
+        }
     ],
     "modules": [
         {

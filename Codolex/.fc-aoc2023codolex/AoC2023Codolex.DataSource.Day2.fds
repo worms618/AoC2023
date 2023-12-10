@@ -1,0 +1,272 @@
+{
+    "name": "Day2",
+    "dataSourceType": "Memory",
+    "databaseServer": "None",
+    "guid": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}",
+    "entities": [
+        {
+            "isPersistent": true,
+            "bounds": [
+                530,
+                331,
+                581,
+                399,
+                [
+                    530,
+                    331
+                ],
+                [
+                    581,
+                    399
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "Cube",
+            "sourceName": "",
+            "guid": "{D5ACCF8A-B399-4242-84E2-4D9EE42D2556}",
+            "fields": [
+                {
+                    "name": "Color",
+                    "dataType": "string_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{B0062177-A947-45B6-958E-DAB0AB8FDFE1}"
+                },
+                {
+                    "name": "Amount",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 2,
+                    "guid": "{5DD3822F-1E73-48C9-84BF-9D6E35E7D0DB}"
+                },
+                {
+                    "name": "SetId",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 3,
+                    "guid": "{73A89EF0-148A-432D-B0A3-99F0FF7F5D65}"
+                }
+            ],
+            "associations": [
+                "{D69AB1C3-57F6-4F0D-A454-0D404C41410A}"
+            ],
+            "datasource": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}"
+        },
+        {
+            "isPersistent": true,
+            "bounds": [
+                74,
+                346,
+                126,
+                384,
+                [
+                    74,
+                    346
+                ],
+                [
+                    126,
+                    384
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "Game",
+            "sourceName": "",
+            "guid": "{728CAF5A-5B1C-40C6-84F2-29F9D6DA545B}",
+            "fields": [
+                {
+                    "name": "Number",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{147003CC-97E8-4FA2-BF53-50FCDEDCD336}"
+                }
+            ],
+            "associations": [
+                "{C9E7FE3B-6E4B-4C4E-B6FB-CFBA2016F235}"
+            ],
+            "datasource": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}"
+        },
+        {
+            "isPersistent": true,
+            "bounds": [
+                300,
+                344,
+                380,
+                397,
+                [
+                    300,
+                    344
+                ],
+                [
+                    380,
+                    397
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "SetOfCubes",
+            "sourceName": "",
+            "guid": "{3A7C72FE-B883-4A58-8C61-62EE4E624EBB}",
+            "fields": [
+                {
+                    "name": "GameNumber",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{277FE23D-5462-4B37-97AC-745ACFFE2D50}"
+                },
+                {
+                    "name": "ID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 2,
+                    "guid": "{0C653456-D0FE-44D1-AFD3-2E529551436E}"
+                }
+            ],
+            "associations": [
+                "{D69AB1C3-57F6-4F0D-A454-0D404C41410A}",
+                "{C9E7FE3B-6E4B-4C4E-B6FB-CFBA2016F235}"
+            ],
+            "datasource": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}"
+        }
+    ],
+    "associations": [
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        256,
+                        18
+                    ],
+                    "From_",
+                    "Left",
+                    18,
+                    [
+                        530,
+                        383
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        513,
+                        11
+                    ],
+                    "To_",
+                    "Right",
+                    11,
+                    [
+                        380,
+                        381
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "Cubes",
+            "name": "InSet",
+            "sourceName": "",
+            "guid": "{D69AB1C3-57F6-4F0D-A454-0D404C41410A}",
+            "fromEntity": "{D5ACCF8A-B399-4242-84E2-4D9EE42D2556}",
+            "fromField": "{73A89EF0-148A-432D-B0A3-99F0FF7F5D65}",
+            "toEntity": "{3A7C72FE-B883-4A58-8C61-62EE4E624EBB}",
+            "toField": "{0C653456-D0FE-44D1-AFD3-2E529551436E}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        256,
+                        -4
+                    ],
+                    "From_",
+                    "Left",
+                    -4,
+                    [
+                        300,
+                        366
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        513,
+                        3
+                    ],
+                    "To_",
+                    "Right",
+                    3,
+                    [
+                        126,
+                        368
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "Sets",
+            "name": "Game",
+            "sourceName": "",
+            "guid": "{C9E7FE3B-6E4B-4C4E-B6FB-CFBA2016F235}",
+            "fromEntity": "{3A7C72FE-B883-4A58-8C61-62EE4E624EBB}",
+            "fromField": "{277FE23D-5462-4B37-97AC-745ACFFE2D50}",
+            "toEntity": "{728CAF5A-5B1C-40C6-84F2-29F9D6DA545B}",
+            "toField": "{147003CC-97E8-4FA2-BF53-50FCDEDCD336}"
+        }
+    ]
+}

@@ -4,6 +4,30 @@
     "guid": "{6637970C-9F14-4782-B04A-8B46610776D9}",
     "flows": [
         {
+            "guid": "{A5180A18-F8E3-4A1D-8D38-74BA556B3B01}",
+            "filePath": "\\Days\\Days.Day2.CubeCanBePlayed.fsf"
+        },
+        {
+            "guid": "{FB3DB304-35C3-42BB-AD89-E18CA0399C1B}",
+            "filePath": "\\Days\\Days.Day2.GameCanBePlayed.fsf"
+        },
+        {
+            "guid": "{27878702-76CC-4B71-B59A-1BCC15052D44}",
+            "filePath": "\\Days\\Days.Day2.GameRoundCanBePlayed.fsf"
+        },
+        {
+            "guid": "{A4D6CDEE-F78A-4372-828D-8B228AFF0F8F}",
+            "filePath": "\\Days\\Days.Day2.ParseCube.fsf"
+        },
+        {
+            "guid": "{887AAD46-7981-4C88-87EF-230A63EA7586}",
+            "filePath": "\\Days\\Days.Day2.ParseGame.fsf"
+        },
+        {
+            "guid": "{74833045-1CDC-4DA4-86E7-62B389117532}",
+            "filePath": "\\Days\\Days.Day2.ParseSetOfCubes.fsf"
+        },
+        {
             "guid": "{A8B0278E-2355-4946-AD9B-5171B8ADE23C}",
             "filePath": "\\Days\\Days.Day2.Part1.fsf"
         },
