@@ -1,0 +1,515 @@
+{
+    "name": "Day3",
+    "dataSourceType": "Memory",
+    "databaseServer": "None",
+    "guid": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}",
+    "entities": [
+        {
+            "isPersistent": true,
+            "bounds": [
+                83,
+                416,
+                177,
+                454,
+                [
+                    83,
+                    416
+                ],
+                [
+                    177,
+                    454
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "EngineSchematic",
+            "sourceName": "",
+            "guid": "{0E681AAE-3904-4B89-A737-0A3E8E508368}",
+            "fields": [
+                {
+                    "name": "ID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{72B7E621-13EC-4CCE-8CBF-099B04560006}"
+                }
+            ],
+            "associations": [
+                "{83807FB8-ADD8-4965-BE2A-9D9C9DA59A2F}",
+                "{410F55C7-2BAB-4D3A-AEE8-949F9A2E2A0F}"
+            ],
+            "datasource": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}"
+        },
+        {
+            "isPersistent": true,
+            "bounds": [
+                249,
+                319,
+                342,
+                402,
+                [
+                    249,
+                    319
+                ],
+                [
+                    342,
+                    402
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "NumberLocation",
+            "sourceName": "",
+            "guid": "{3EC88D92-F485-4F47-A92A-8E890DFC6F13}",
+            "fields": [
+                {
+                    "name": "Value",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{87B5E11C-0B9D-4491-8A20-6F3C2D3DC9D7}"
+                },
+                {
+                    "name": "FirstDigitPoint",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 2,
+                    "guid": "{9687831A-55EC-4583-8281-A6BEFEF71412}"
+                },
+                {
+                    "name": "LastDigitPoint",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 3,
+                    "guid": "{3C043B99-9C86-4D29-9FEB-44E414306FCB}"
+                },
+                {
+                    "name": "ID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 4,
+                    "guid": "{C1DB9D53-F6EB-4733-897D-D1DBB81099E2}"
+                }
+            ],
+            "associations": [
+                "{0ED260E1-8E0E-46C1-8A3B-D7DD43377C35}",
+                "{4781E2AF-9DC7-45DB-9CC6-50135C6CE6C4}",
+                "{83807FB8-ADD8-4965-BE2A-9D9C9DA59A2F}"
+            ],
+            "datasource": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}"
+        },
+        {
+            "isPersistent": true,
+            "bounds": [
+                545,
+                341,
+                595,
+                409,
+                [
+                    545,
+                    341
+                ],
+                [
+                    595,
+                    409
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "Point",
+            "sourceName": "",
+            "guid": "{B5634EF5-90AA-42AE-A4C8-23F3755B6AE5}",
+            "fields": [
+                {
+                    "name": "Row",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 2,
+                    "guid": "{BD688BE0-4248-4295-925A-77DCE3C1A7E4}"
+                },
+                {
+                    "name": "Column",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 3,
+                    "guid": "{CC5F4978-FB58-4044-857F-3680B94E9736}"
+                },
+                {
+                    "name": "ID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{17896449-D9DB-40E7-BFB4-C95A83DF0D8F}"
+                }
+            ],
+            "associations": [
+                "{0ED260E1-8E0E-46C1-8A3B-D7DD43377C35}",
+                "{4781E2AF-9DC7-45DB-9CC6-50135C6CE6C4}",
+                "{F57AF5B3-90B5-40BF-9524-73FFDA810652}"
+            ],
+            "datasource": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}"
+        },
+        {
+            "isPersistent": true,
+            "bounds": [
+                250,
+                466,
+                340,
+                534,
+                [
+                    250,
+                    466
+                ],
+                [
+                    340,
+                    534
+                ]
+            ],
+            "entityType": "Entity",
+            "selectStatement": "",
+            "isReadOnly": false,
+            "name": "SymbolLocation",
+            "sourceName": "",
+            "guid": "{1D191F03-A8C0-4C55-88D5-FB6C46497A52}",
+            "fields": [
+                {
+                    "name": "Symbol",
+                    "dataType": "string_",
+                    "size": 32,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 1,
+                    "guid": "{0589F1AD-7E09-4562-9E60-07BA02A226AE}"
+                },
+                {
+                    "name": "PointID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 2,
+                    "guid": "{D1AA8AC7-5B18-4590-872A-B4C27C8F8D49}"
+                },
+                {
+                    "name": "ID",
+                    "dataType": "Integer_",
+                    "size": 0,
+                    "defaultValue": "",
+                    "sourceName": "",
+                    "isPrimaryKeyField": false,
+                    "isReadOnly": false,
+                    "precision": 0,
+                    "scale": 0,
+                    "position": 3,
+                    "guid": "{B8A7EECD-0985-43B6-8408-A6E15F1C5DCF}"
+                }
+            ],
+            "associations": [
+                "{F57AF5B3-90B5-40BF-9524-73FFDA810652}",
+                "{410F55C7-2BAB-4D3A-AEE8-949F9A2E2A0F}"
+            ],
+            "datasource": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}"
+        }
+    ],
+    "associations": [
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        -4
+                    ],
+                    "From_",
+                    "Right",
+                    -4,
+                    [
+                        342,
+                        356
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        18
+                    ],
+                    "To_",
+                    "Left",
+                    18,
+                    [
+                        545,
+                        393
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "NumberLocationFirstDigit",
+            "name": "FirstDigit",
+            "sourceName": "",
+            "guid": "{0ED260E1-8E0E-46C1-8A3B-D7DD43377C35}",
+            "fromEntity": "{3EC88D92-F485-4F47-A92A-8E890DFC6F13}",
+            "fromField": "{9687831A-55EC-4583-8281-A6BEFEF71412}",
+            "toEntity": "{B5634EF5-90AA-42AE-A4C8-23F3755B6AE5}",
+            "toField": "{17896449-D9DB-40E7-BFB4-C95A83DF0D8F}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        11
+                    ],
+                    "From_",
+                    "Right",
+                    11,
+                    [
+                        342,
+                        371
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        18
+                    ],
+                    "To_",
+                    "Left",
+                    18,
+                    [
+                        545,
+                        393
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "NumberLocationLastDigit",
+            "name": "LastDigit",
+            "sourceName": "",
+            "guid": "{4781E2AF-9DC7-45DB-9CC6-50135C6CE6C4}",
+            "fromEntity": "{3EC88D92-F485-4F47-A92A-8E890DFC6F13}",
+            "fromField": "{3C043B99-9C86-4D29-9FEB-44E414306FCB}",
+            "toEntity": "{B5634EF5-90AA-42AE-A4C8-23F3755B6AE5}",
+            "toField": "{17896449-D9DB-40E7-BFB4-C95A83DF0D8F}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        512,
+                        3
+                    ],
+                    "From_",
+                    "Right",
+                    3,
+                    [
+                        340,
+                        503
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        257,
+                        18
+                    ],
+                    "To_",
+                    "Left",
+                    18,
+                    [
+                        545,
+                        393
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "Symbol",
+            "name": "Point",
+            "sourceName": "",
+            "guid": "{F57AF5B3-90B5-40BF-9524-73FFDA810652}",
+            "fromEntity": "{1D191F03-A8C0-4C55-88D5-FB6C46497A52}",
+            "fromField": "{D1AA8AC7-5B18-4590-872A-B4C27C8F8D49}",
+            "toEntity": "{B5634EF5-90AA-42AE-A4C8-23F3755B6AE5}",
+            "toField": "{17896449-D9DB-40E7-BFB4-C95A83DF0D8F}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        256,
+                        26
+                    ],
+                    "From_",
+                    "Left",
+                    26,
+                    [
+                        249,
+                        386
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        513,
+                        3
+                    ],
+                    "To_",
+                    "Right",
+                    3,
+                    [
+                        177,
+                        438
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "Numbers",
+            "name": "Schematic",
+            "sourceName": "",
+            "guid": "{83807FB8-ADD8-4965-BE2A-9D9C9DA59A2F}",
+            "fromEntity": "{3EC88D92-F485-4F47-A92A-8E890DFC6F13}",
+            "fromField": "{C1DB9D53-F6EB-4733-897D-D1DBB81099E2}",
+            "toEntity": "{0E681AAE-3904-4B89-A737-0A3E8E508368}",
+            "toField": "{72B7E621-13EC-4CCE-8CBF-099B04560006}"
+        },
+        {
+            "associationType": "OneToMany",
+            "points": [
+                [
+                    "Relative",
+                    [
+                        256,
+                        18
+                    ],
+                    "From_",
+                    "Left",
+                    18,
+                    [
+                        250,
+                        518
+                    ],
+                    "None",
+                    0,
+                    0
+                ],
+                [
+                    "Relative",
+                    [
+                        513,
+                        3
+                    ],
+                    "To_",
+                    "Right",
+                    3,
+                    [
+                        177,
+                        438
+                    ],
+                    "None",
+                    0,
+                    0
+                ]
+            ],
+            "isAutoCreate": false,
+            "foreignName": "Symbols",
+            "name": "Schematic",
+            "sourceName": "",
+            "guid": "{410F55C7-2BAB-4D3A-AEE8-949F9A2E2A0F}",
+            "fromEntity": "{1D191F03-A8C0-4C55-88D5-FB6C46497A52}",
+            "fromField": "{B8A7EECD-0985-43B6-8408-A6E15F1C5DCF}",
+            "toEntity": "{0E681AAE-3904-4B89-A737-0A3E8E508368}",
+            "toField": "{72B7E621-13EC-4CCE-8CBF-099B04560006}"
+        }
+    ]
+}

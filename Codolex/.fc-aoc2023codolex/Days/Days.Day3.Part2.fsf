@@ -2,7 +2,7 @@
     "name": "Part2",
     "visibility": "Public_",
     "isStatic": true,
-    "isFunction": false,
+    "isFunction": true,
     "guid": "{109EFC4B-A58F-4E58-972B-DB453B36DFD4}",
     "returnValue": "{F2F8008C-CB89-4CA7-B8A3-CCA2E6FC1210}",
     "start": "{E1229005-256F-45F3-9639-2E31F9A4583D}",
@@ -61,13 +61,14 @@
                 "{7AB65902-EF80-4C76-9B37-C4FB26AB8ED6}"
             ],
             "outgoingSequences": [
-            ]
+            ],
+            "returnVariable": "{D2485847-E394-4EC2-8723-C72F083A1FE3}"
         },
         {
-            "name": "",
-            "variableType": "None",
+            "name": "Part2Result",
+            "variableType": "Integer_",
             "collectionType": "None",
-            "expression": "",
+            "expression": "0",
             "customTypeName": "",
             "description": "",
             "elementClass": "FlowModel.Variable.TFlowVariable",

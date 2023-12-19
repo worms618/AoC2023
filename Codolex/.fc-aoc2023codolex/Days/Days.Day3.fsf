@@ -4,6 +4,14 @@
     "guid": "{98C7D5BA-E2DB-4955-A8FE-B54B85930C61}",
     "flows": [
         {
+            "guid": "{3263D4A8-0FD1-4807-A16A-1547FAFEEA23}",
+            "filePath": "\\Days\\Days.Day3.ParseSchematic.fsf"
+        },
+        {
+            "guid": "{DF16B319-6D55-47BC-A024-103BAAA1B288}",
+            "filePath": "\\Days\\Days.Day3.ParseSchematicLine.fsf"
+        },
+        {
             "guid": "{347F0A89-436D-4924-BBFB-57840C98DF55}",
             "filePath": "\\Days\\Days.Day3.Part1.fsf"
         },

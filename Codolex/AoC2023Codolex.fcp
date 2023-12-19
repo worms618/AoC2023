@@ -8,6 +8,10 @@
         {
             "guid": "{BFFDD6AD-4CF5-4E08-850E-740A7680DA8A}",
             "filePath": "\\AoC2023Codolex.DataSource.Day2.fds"
+        },
+        {
+            "guid": "{B3368457-AB04-4C63-8EEE-8D3E4541FEE7}",
+            "filePath": "\\AoC2023Codolex.DataSource.Day3.fds"
         }
     ],
     "modules": [
