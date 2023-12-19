@@ -1,0 +1,17 @@
+{
+    "name": "Day3",
+    "language": "Delphi",
+    "guid": "{98C7D5BA-E2DB-4955-A8FE-B54B85930C61}",
+    "flows": [
+        {
+            "guid": "{347F0A89-436D-4924-BBFB-57840C98DF55}",
+            "filePath": "\\Days\\Days.Day3.Part1.fsf"
+        },
+        {
+            "guid": "{109EFC4B-A58F-4E58-972B-DB453B36DFD4}",
+            "filePath": "\\Days\\Days.Day3.Part2.fsf"
+        }
+    ],
+    "variables": [
+    ]
+}

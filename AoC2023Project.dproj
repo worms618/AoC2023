@@ -110,6 +110,7 @@
         <DCCReference Include="Days\DayX.pas"/>
         <DCCReference Include="Days\Day1.pas"/>
         <DCCReference Include="Days\Day2.pas"/>
+        <DCCReference Include="Days\Day3.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
